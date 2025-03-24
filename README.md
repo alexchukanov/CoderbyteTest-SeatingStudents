@@ -6,6 +6,13 @@ Have the function SeatingStudents(arr) read the array of integers stored in arr 
 
 For example: if arr is [12, 2, 6, 7, 11] then this classrooms looks like the following picture:
 
+1  *
+3  4
+5  *
+*  8
+9  10
+* 12
+
 Based on above arrangement of occupied desks, there are a total of 6 ways to seat 2 new students next to each other. The combinations are: [1, 3], [3, 4], [3, 5], [8, 10], [9, 10], [10, 12]. So for this input your program should return 6. K will range from 2 to 24 and will always be an even number. After K, the number of occupied desks in the array can range from 0 to K.
 Examples
 Input: new int[] {6, 4}
